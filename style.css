@@ -97,11 +97,15 @@ body {
     padding: 2em;
 }
 
+
 .dispositivos__lista {
     display: flex;
     justify-content: center;
+    text-align: center;
     list-style-type: none;
-    margin: 5em 0;
+    margin: 2em 0 2em 0;
+    height: 60vh;
+    
 }
 
 .dispositivos {
@@ -110,11 +114,6 @@ body {
 
 .dispositivos__titulo {
     font-size: 48px;
-    color: var(--branco-principal);
-}
-
-.lista__item {
-    font-size: 32px;
     color: var(--branco-principal);
 }
 
